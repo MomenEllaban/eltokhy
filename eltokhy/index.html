@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الطوخى واحد بس (التمساح) </title>
+    <link rel="icon" type="image/x-icon"
+        href="https://img.icons8.com/external-filled-outline-icons-maxicons/85/000000/external-five-restaurants-and-dining-filled-outline-filled-outline-icons-maxicons.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap-grid.min.css"
+        integrity="sha512-Xj2sd25G+JgJYwo0cvlGWXoUekbLg5WvW+VbItCMdXrDoZRWcS/d40ieFHu77vP0dF5PK+cX6TIp+DsPfZomhw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap-reboot.min.css"
+        integrity="sha512-ioOlrrQQ3fZN/A7N2rZVm6JXp/Lg7xtda9OaRKornjBcuTW/UqIhTlPyngcGQGrQTOhJgmSltKM4v3Ne03WPug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css"
+        integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css"
+        integrity="sha512-r9kUVFtJ0e+8WIL8sjTUlHGbTLwlOClXhVqGgu4sb7ILdkBvM2uI+n/Fz3FN8u3VqJX7l9HLiXqXxkx2mZpkvQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body dir="rtl">
+
+    <!-- header section start -->
+
+    <header id="header">
+
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#special">طلبات خاصة</a></li>
+                <li><a href="#about">من نحن </a></li>
+                <li><a href="#dish">اشهى الاطباق</a></li>
+                <li><a href="#contact">التواصل</a></li>
+            </ul>
+        </nav>
+
+
+        <div class=" fas fa-hamburger">
+            <!-- <img  src="images/camel.png" width="50px" alt=""> -->
+        </div>
+
+        <div id="audioDiv">
+            <audio id="audio">
+               <source src="images/Bella ciao .mp3" loop type="audio/mp3">
+             </audio>
+          </div>
+        
+
+
+
+        <a href="#" class="logo"> <img src="images/الطوخى1.png" alt=""> </a>
+
+    </header>
+
+
+    <!-- header section ends  -->
+
+
+    <!-- home section starts  -->
+
+    <section id="home" class="container-fluid">
+
+        <div class="row min-vh-100 align-items-center">
+
+            <div class="col-md-8 ml-md-5 text-md-right text-center content">
+                <h1>الطوخى هيظبطلى نفوخى...</h1>
+                <h2>"كل الناس هنا بتحبني، وبتحب تاكل عندي، يبقي ليه أقفل أصلا،
+                    <br>
+                    طالما اللحمة اللي عندي في السليم"
+                </h2>
+
+            <div class="d-flex align-items-center">
+                <a href="#special" class="ml-5" ><button>
+                    حط كولونيا
+                    <i class="far fa-thumbs-down"></i>
+                </button></a>
+
+                <a class="play-btn" onclick="playVid()" type="button"></a>
+
+
+
+
+            
+
+            </div>
+
+
+            </div>
+
+            <div class="video-container">
+                <video  src="images/fullVid (online-video-cutter.com).mp4" autoplay loop class="vid vid2"></video>
+                <video  id="myVideo" src="images/fullVid (online-video-cutter.com).mp4"  loop class="vid vid1"></video>
+                <video src="images/fullVid (online-video-cutter.com).mp4" autoplay loop class="vid vid3"></video>
+            </div>
+
+            <div class="controls">
+                <div class="dots dot1"></div>
+                <div class="dots dot2"></div>
+                <div class="dots dot3"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends  -->
+
+
+
+
+    <!-- special card section starts  -->
+
+    <section id="special" class="container-fluid">
+
+        <div class="heading text-center">
+            <h1>طلبات <span>خاصة</span></h1>
+            <p>"اتفرج يا باشا وتعالى كل بغاشا" </p>
+        </div>
+
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/10.JPG" alt="">
+                <p>شويه شوربه كوارع دافيه غرقانه في الليمون</p>
+                <a href="#"><button>حط كولونيا
+                        <i class="far fa-thumbs-down"></i>
+
+                    </button></a>
+            </div>
+
+            <div class="card">
+                <img src="images/15.JPG" alt="">
+                <p>شويه شوربه كوارع دافيه غرقانه في الليمون</p>
+                <a href="#"><button>
+                        حط كولونيا
+                        <i class="far fa-thumbs-down"></i>
+
+                    </button></a>
+            </div>
+
+            <div class="card">
+                <img src="images/20.JPG" alt="">
+                <p>شويه شوربه كوارع دافيه غرقانه في الليمون</p>
+                <a href="#"><button>حط كولونيا
+
+                        <i class="far fa-thumbs-down"></i>
+
+                    </button></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- special card section ends  -->
+
+
+
+
+    <!-- about section starts  -->
+
+    <section id="about" class="container">
+
+        <div class="heading text-center">
+            <h1><span>من</span> نحن</h1>
+        </div>
+
+        <div class="row min-vh-100">
+
+            <div class="col-md-6 text-center text-md-right  content">
+                <h2>ما قصة صاحب «أرخص ساندويتش» في مصر؟
+                </h2>
+                <p>
+                    القصة بدأت بتداول مقطع فيديو جديد على نطاق واسع عبر منصات التواصل الاجتماعي لشخص يدعى إبراهيم
+                    الطوخي، وهو صاحب محل سمين (من الأكلات الشعبية في مصر) مردداً جملته التي ذاع صيته بها في محيطه
+                    «الجملي هو أملي»، فضلاً عن عدد من اللزمات الكلامية و«الإيفيهات».
+
+                    وسبق وأن ظهر الطوخي، والذي اشتهر بعدة ألقاب منها «طوخي المطرية» في عدة فيديوهات أخرى، غلب عليها طابع
+                    الفكاهة، في دعاية لمحله، قال خلالها إنه يبيع «الساندويتش الواحد» بخمسة جنيهات (الدولار يعادل 15.6
+                    جنيه تقريباً).
+
+                    «الرغيف بخمسة جنيهات والجملي هو أملي.. دوق وجرّب قبل ما تاكل.. ببلاش، والرغيف عليه رغيف هدية.. اتفرج
+                    يا باشا وتعالى كُل بغاشة.. التمساح».. كلمات يرددها الطوخي دائماً في فيديوهاته المنتشرة عبر منصات
+                    التواصل، بينما يتجمع حوله لفيف من الزبائن، وأمامه قدر مملوء بـ«السمين» في أجواء احتفالية وضجيج واسع.
+                </p>
+                <a href="#"><button> الجملي هو أملي ...</button></a>
+            </div>
+
+            <div class="col-md-6 image">
+                <img src="images/9797978ac6.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends  -->
+
+
+
+
+
+
+    <!-- dish section starts  -->
+
+    <section id="dish" class="container">
+
+        <div class="heading text-center">
+            <h1>اشهى <span>الاطباق</span></h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/طبق1.jpg" alt="">
+                <div class="info">
+                    <h3>طبق1</h3>
+                    <p>تشويحه كبده انما ايه عظمه </p>
+                    <a href="#"><button>جرب</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/طبق2.jpg" alt="">
+                <div class="info">
+                    <h3>طبق2</h3>
+                    <p>كبده جملى باليمون والطحينه وعيش وسلطاتك وباباغنوجك </p>
+                    <a href="#"><button>دوق</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/طبق3.jpg" alt="">
+                <div class="info">
+                    <h3>طبق3</h3>
+                    <p>طاسه كبده جملى على قديمو </p>
+                    <a href="#"><button>جرب</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/طبق4.jpg" alt="">
+                <div class="info">
+                    <h3>طبق4</h3>
+                    <p>حته بقى كبده سورى مع العيش جاااامد </p>
+                    <a href="#"><button>دوق</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/طبق5.png" alt="">
+                <div class="info">
+                    <h3>طبق5</h3>
+                    <p>كبده جملى اسكندرانى بالخلطه رهيبه </p>
+                    <a href="#"><button>جرب</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/طبق6.jpg" alt="">
+                <div class="info">
+                    <h3>طبق6</h3>
+                    <p>ديه كبده بانيه عاديه باينه اوى يعنى </p>
+                    <a href="#"><button>دوق</button></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- dish section ends  -->
+
+
+
+
+
+    <!-- contact section starts  -->
+
+    <section id="contact" class="container-fluid">
+
+        <div class="heading text-center">
+            <h1><span>التواصل</span></h1>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-5 brand">
+                <a href="#" class="logo"> <img src="images/الطوخى1.png" alt=""> </a>
+                <br>
+                <br>
+                <div class="icons">
+                    <a href="https://www.facebook.com/%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%A7%D9%84%D8%B7%D9%88%D8%AE%D9%8A-%D9%88-%D9%88%D9%84%D8%B9%D9%87-%D9%88%D8%A8%D9%88%D8%AF%D9%8A-106467044984541" class="fab fa-facebook-square"></a>
+                    <a href="https://www.facebook.com/%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%A7%D9%84%D8%B7%D9%88%D8%AE%D9%8A-%D9%88-%D9%88%D9%84%D8%B9%D9%87-%D9%88%D8%A8%D9%88%D8%AF%D9%8A-106467044984541" class="fab fa-twitter-square"></a>
+                    <a href="https://www.facebook.com/%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%A7%D9%84%D8%B7%D9%88%D8%AE%D9%8A-%D9%88-%D9%88%D9%84%D8%B9%D9%87-%D9%88%D8%A8%D9%88%D8%AF%D9%8A-106467044984541" class="fab fa-instagram-square"></a>
+                    <a href="https://www.facebook.com/%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%A7%D9%84%D8%B7%D9%88%D8%AE%D9%8A-%D9%88-%D9%88%D9%84%D8%B9%D9%87-%D9%88%D8%A8%D9%88%D8%AF%D9%8A-106467044984541" class="fab fa-pinterest-square"></a>
+                </div>
+            </div>
+
+            <form action="" class="col-md-5">
+
+                <div class="inputBox">
+                    <input type="text" required>
+                    <h3>الاسم</h3>
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" required>
+                    <h3>الايميل</h3>
+                </div>
+
+                <div class="inputBox">
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <h3>الرسالة</h3>
+                </div>
+
+                <input type="submit" value="ارسال">
+
+            </form>
+
+
+          
+
+
+
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends  -->
+
+
+
+    <!-- footer section starts  -->
+
+    <section id="footer" class="container-fluid">
+
+        <!-- <div class="row align-items-center">
+            <div class="col-md-4 footer-links">
+                <h3>links:</h3>
+                <a href="#home">home</a>
+                <a href="#special">special</a>
+                <a href="#about">about</a>
+                <a href="#dish">dish</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="col-md-4 text-center text-md-right letter">
+                <h2>newsletter</h2>
+                <input type="text"><br>
+                <input type="submit" value="subscribe">
+            </div>
+        </div> -->
+
+        <h1>&copy; copyright @ 2022 by <span>Moamen Ellaban</span></h1>
+
+    </section>
+
+    <!-- footer section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"
+        integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"
+        integrity="sha512-mULnawDVcCnsk9a4aG1QLZZ6rcce/jSzEGqUkeOLy0b6q0+T6syHrxlsAGH7ZVoqC93Pd0lBqd6WguPWih7VHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
